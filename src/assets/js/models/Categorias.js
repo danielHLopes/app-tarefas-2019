@@ -1,19 +1,19 @@
-class Categorias{
+class Categorias {
 
     constructor(){
-        this._categorias = []
+      this._categorias = []
     }
-
+  
     adicionar(categoria){
-        this._categorias.push(categoria)
+      this._categorias.push(categoria)
     }
-
+  
     listar(){
-        return this._categorias
+      return this._categorias
     }
-
+  
     limpar(){
-        this._categorias = []
+      this._categorias = []
     }
-
-}
+  }
+  
